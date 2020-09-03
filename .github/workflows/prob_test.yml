@@ -24,3 +24,5 @@ jobs:
     - name: Test Probabilities
       run: |
         python ./tests/prob.test.py
+      env:
+        CI: true
