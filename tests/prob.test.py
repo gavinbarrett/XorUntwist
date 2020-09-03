@@ -10,7 +10,7 @@ class ProbabilityTester(unittest.TestCase):
 			self.assertEqual(round(tots[key], 7), 1.0)
 
 def probability_test():
-	lines = open('../dataset/probabilities', 'r')
+	lines = open('dataset/probabilities', 'r')
 	keys = [line.split() for line in lines.readlines()]
 	for key in keys:
 		tots[str([key[0] + ' ' + key[1]])] += float(key[3])
