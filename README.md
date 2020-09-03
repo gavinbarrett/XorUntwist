@@ -4,6 +4,8 @@ This is a small library aimed at the automated cryptanalysis of a two-time key c
 
 Common attacks against such cryptosystems use slow, difficult-to-automate methods such as crib-dragging. This library intends to be a replacement of such methods. We aim to provide an efficient, abstract method of retrieving the English plaintexts from an OTP cipher that reuses keystreams. This project is insipired by [this paper](https://www.cs.jhu.edu/~jason/papers/mason+al.ccs06.pdf).
 
+![](https://github.com/gavinbarrett/XorUntwist/workflows/Probability%20Test/badge.svg)
+
 # Data
 ## Source
 Data is kept in the dataset/dat.tag file, which is built with the parse\_html.py script on a set of 19,000+ blog posts pulled from [here](http://www.cs.biu.ac.il/~koppel/blogs/blogs.zip). 
